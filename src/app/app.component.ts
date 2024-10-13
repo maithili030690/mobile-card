@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Imobile } from './shared/models/mobile';
+import { mobileProducts } from './shared/consts/mobile';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mobile-card';
+
+  mobileData=mobileProducts
 }
