@@ -5,11 +5,14 @@
     }"
     >
         <div class="row">
+      
             <div class="col-md-3">
-                <img [src]="mobileObj.image ||'https://placehold.co/600x400'" 
+                <img [lazySrc]="mobileObj.image ||'https://placehold.co/600x400'" 
+                [placeholderSrc]="'https://placehold.co/600x400'"
                 [alt]="mobileObj.image" 
                 [title]="mobileObj.image" 
-                class="img-fluid" >
+                class="img-fluid"
+                loading="lazy" appLazyLoadImage>
                
             </div>
             <div class="col-md-7">

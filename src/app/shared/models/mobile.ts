@@ -17,3 +17,10 @@ export interface Imobile{
         battery: string;
 }
 }
+
+
+export   interface Ipost{
+    title: string;
+    description: string;
+    coverImage: string;
+}

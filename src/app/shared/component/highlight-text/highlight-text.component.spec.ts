@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MobileCardComponent } from './mobile-card.component';
+import { HighlightTextComponent } from './highlight-text.component';
 
-describe('MobileCardComponent', () => {
-  let component: MobileCardComponent;
-  let fixture: ComponentFixture<MobileCardComponent>;
+describe('HighlightTextComponent', () => {
+  let component: HighlightTextComponent;
+  let fixture: ComponentFixture<HighlightTextComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MobileCardComponent ]
+      declarations: [ HighlightTextComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MobileCardComponent);
+    fixture = TestBed.createComponent(HighlightTextComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
